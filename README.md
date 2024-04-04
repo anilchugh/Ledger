@@ -7,10 +7,11 @@ mvn clean install
 mvn spring-boot:run
 
 ## Swagger Documentation
-http://localhost:8080/swagger-ui/index.html
+http://localhost:8080/swagger-ui/index.html#/
 
 ## Testing
 There is data setup for basic entity(id=1) and account(id=1) with two wallets (id=1 and id=2)
+
 Entity API can be tested via Swagger API to
 * create a new entity
 
